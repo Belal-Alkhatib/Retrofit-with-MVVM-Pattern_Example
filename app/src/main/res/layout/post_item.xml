@@ -34,7 +34,7 @@
 
             android:text="ccccccccc"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:text="ccccccccc"
             android:layout_marginTop="8dp"
+            android:textSize="17sp"
             app:layout_constraintTop_toBottomOf="@+id/tvTitle"
             tools:layout_editor_absoluteX="177dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
